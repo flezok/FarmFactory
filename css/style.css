@@ -1,0 +1,204 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'RFDewi';
+    src: url('../fonts/RFDewi-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'RFDewiExpanded';
+    src: url('../fonts/RFDewiExpanded-Ultrabold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1125px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.home{
+    background-image: url("../images/home-bg.png");
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(17, 0, 0, 1);
+}
+
+.home .container{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__box,
+.header__mail,
+.logo{
+    width: 33%;
+}
+
+.header__mail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__contact{
+    font-family: 'RFDewiExpanded', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.header__text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.logo__name{
+    font-family: 'RFDewiExpanded', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo__text{
+    font-family: 'RFDewi', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.home__content{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'RFDewiExpanded', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(25, 25, 25, 1);
+}
+
+.home__title{
+    font-size: 60px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+.btn{
+    width: 265px;
+    height: 64px;
+    opacity: 1;
+    top: 400px;
+    left: 827px;
+    border-radius: 10px;
+    background-color: rgba(244, 223, 116, 1);
+    color: rgba(53, 53, 53, 1);
+    font-family: 'RFDewiExpanded', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+}
+
+.products{
+    padding-top: 120px;
+    margin-bottom: 106px;
+}
+
+.products__title{
+    margin-bottom: 48px;
+}
+
+.products__text{
+    max-width: 738px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.products__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products__items{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.products__item{
+    cursor: pointer;
+}
+
+.products__item-img{
+    width: 350px;
+    height: 348px;
+    border-radius: 6px;
+    margin-bottom: 21px;
+}
+
+.products__name{
+    font-family: 'RFDewi', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    /* margin-right: 15px; */
+    position: relative;
+    display: inline-block;
+}
+
+.products__price{
+    font-family: 'RFDewi', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    position: absolute;
+    top: -5px;
+    min-width: 90px;
+    right: -101px;
+}
