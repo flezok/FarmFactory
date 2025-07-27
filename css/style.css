@@ -228,6 +228,16 @@
     transition: 0.2s;
 }
 
+.products__item:focus-visible {
+  outline: 2px dashed black;
+  outline-offset: 2px;
+}
+
+.shops__item:focus-visible {
+  outline: 2px dashed black;
+  outline-offset: 2px;
+}
+
 .products__item:hover{
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
